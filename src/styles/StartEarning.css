@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+.start-earning {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	font-family: 'Tilda Sans', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.start-earning-header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 46px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 45px;
+	color: white;
+	font-weight: bold;
+}
+
+.start-earning-content {
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.image-container {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 23px;
+}
+
+.start-earning-image {
+	width: 500px;
+	height: 500px;
+}
+
+.text-container {
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main-text {
+	font-size: 35px;
+	color: white;
+	margin: 0px;
+	margin-bottom: 7px;
+	line-height: 50px;
+}
+
+.secondary-text {
+	font-size: 34px;
+	color: #c9d2da;
+	margin-bottom: 20px;
+	margin: 0px;
+	line-height: 50px;
+}
+
+.description-text {
+	font-size: 20px;
+	color: #fafafa;
+	margin-bottom: 30px;
+	font-family: 'Tilda Sans', Arial, sans-serif;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.auth-button {
+	width: 571px;
+	height: 55px;
+	border: none;
+	border-radius: 50px;
+	background-color: #003477;
+	color: #ffffffea;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 29px;
+}
+
+.auth-link {
+	width: 571px;
+	height: 55px;
+	border-radius: 50px;
+}

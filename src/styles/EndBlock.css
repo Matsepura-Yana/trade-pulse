@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Tilda Sans';
+	src: url('/assets/fonts/TildaSans-Light.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+}
+
+.end-block {
+	height: 460px;
+	background: linear-gradient(
+			to bottom,
+			rgba(0, 0, 0, 0.538),
+			rgba(0, 0, 0, 0.63)
+		),
+		url('../images/mainscreen background.jpg') center/cover no-repeat;
+	position: relative; /* Чтобы позиционировать стрелку относительно блока */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+}
+
+.end-block-title {
+	font-family: 'Tilda Sans', sans-serif;
+	font-size: 48px;
+	margin-bottom: 5px;
+	font-weight: 600;
+	color: rgb(246, 246, 246);
+}
+
+.end-block-subtitle {
+	font-family: 'Tilda Sans', sans-serif;
+	font-size: 24px;
+	color: #d1d9e0;
+	font-weight: lighter;
+}
+
+.end-block-button {
+	margin-top: 40px;
+	background-color: #003477;
+	color: white;
+	font-family: 'Tilda Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 30px;
+	width: 274px;
+	height: 60px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	position: relative; /* Чтобы стрелка была визуально связана с кнопкой */
+}
+
+/* Добавляем стиль для стрелки */
+.end-block-arrow {
+	position: absolute;
+	left: 35%;
+	bottom: 120px; /* Регулирует положение относительно кнопки */
+	width: 80px;
+	height: 80px;
+	background: url('../images/arrow.png') center/contain no-repeat; /* Укажите путь к вашей стрелке */
+}
