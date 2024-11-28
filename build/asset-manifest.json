@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/trade-pulse/static/css/main.3b3049a3.css",
+    "main.js": "/trade-pulse/static/js/main.a6e5780c.js",
+    "static/media/mainscreen background.jpg": "/trade-pulse/static/media/mainscreen background.edecaf5179ef67522ab0.jpg",
+    "static/media/start earning.png": "/trade-pulse/static/media/start earning.2c85c18e916a14a1a228.png",
+    "static/media/logo.png": "/trade-pulse/static/media/logo.84b52eb47baf572d289d.png",
+    "static/media/active users.png": "/trade-pulse/static/media/active users.72eca07f8c9ec1d06de9.png",
+    "static/media/lost signals.png": "/trade-pulse/static/media/lost signals.f22b9062074458a40427.png",
+    "static/media/pocket option logo.png": "/trade-pulse/static/media/pocket option logo.f81a21316e439a01926a.png",
+    "static/media/arrow.png": "/trade-pulse/static/media/arrow.d618dd231fae40924858.png",
+    "static/media/win signals.png": "/trade-pulse/static/media/win signals.e490ab43cb3cc2264494.png",
+    "static/media/TildaSans-Light.woff2": "/trade-pulse/static/media/TildaSans-Light.9df27024da31c1e64a58.woff2",
+    "static/media/TildaSans-Bold.woff2": "/trade-pulse/static/media/TildaSans-Bold.7b20d6ac9e458d542ac9.woff2",
+    "static/media/TildaSans-Medium.woff2": "/trade-pulse/static/media/TildaSans-Medium.90e34d39fb42c65017a6.woff2",
+    "static/media/TildaSans-Regular.woff2": "/trade-pulse/static/media/TildaSans-Regular.ea99090449b0ab24b898.woff2",
+    "static/media/statistic image.png": "/trade-pulse/static/media/statistic image.c58a071096dc1f89c839.png",
+    "static/media/close icon.svg": "/trade-pulse/static/media/close icon.22f591a7ab4b033f566fb300931af399.svg",
+    "index.html": "/trade-pulse/index.html",
+    "main.3b3049a3.css.map": "/trade-pulse/static/css/main.3b3049a3.css.map",
+    "main.a6e5780c.js.map": "/trade-pulse/static/js/main.a6e5780c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3049a3.css",
+    "static/js/main.a6e5780c.js"
+  ]
+}
